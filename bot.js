@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('ready', () => {
-  client.user.setGame(`WindSyśtem!.`,"https://www.twitch.tv/v5bz")
+  client.user.setGame(`WindSyśtem!.`,"https://www.twitch.tv/v5bz"):
   console.log('---------------');
   console.log('Desert Bot Is Online')
   console.log('---------------')
@@ -266,7 +266,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(` ON ${client.guilds.size} Servers - Prefix *help`,"http://twitch.tv/S-F")
+client.user.setGame(`.WindSyśtem`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 client.on("guildCreate", guild => {
