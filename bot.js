@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('ready', () => {
-  client.user.setGame(`WindSyśtem!.`,'https://www.twitch.tv/v5bz');
+  client.user.setGame(`WindSyśtem!.`,"https://www.twitch.tv/v5bz")
   console.log('---------------');
   console.log('Desert Bot Is Online')
   console.log('---------------')
@@ -212,7 +212,7 @@ if(message.content.split(' ')[0] == '*bc') {
   .setThumbnail(message.author.avatarURL)  
   .setAuthor(message.author.username)
 .setDescription("معلومات عن الحــساب")
-               .setFooter(`Desert Bot.`, '')
+               .setFooter(`.`, '')
   .setColor("#9B59B6")
   .addField("اســـم الحســاب", `${message.author.username}`)
   .addField('كود الحساب الخاص', message.author.discriminator)
